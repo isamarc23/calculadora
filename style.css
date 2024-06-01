@@ -1,4 +1,4 @@
-@media scream and (max-width: 569px){
+
   body{
     
     background: #3a6186;  /* fallback for old browsers */
@@ -12,16 +12,15 @@ background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, F
   } 
 
 
-}
+
   
  
-  @media scream and (min-width: 570px) {
-    body {
-      background-color: #13171f;
-      font-size: 15px;
-      font-family: 'Poppins';
-      place-content: center;
-    }
+  @media (max-width: 570px) {
+    body{
+    background: #B3FFAB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #12FFF7, #B3FFAB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #12FFF7, #B3FFAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
   }
   .calculator {
     margin: auto;
