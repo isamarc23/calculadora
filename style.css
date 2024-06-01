@@ -1,6 +1,6 @@
 
   
-  @media scream and (min-with: 570px) {
+  @media scream and (min-width: 570px) {
     body {
       background-color: #13171f;
       font-size: 15px;
