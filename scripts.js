@@ -76,13 +76,7 @@ function cleaner(){
     document.getElementById('num2').value="";
     document.getElementById('resultado').innerHTML="";
 }
-  document.getElementById('resultado').innerText = resultado;
-
-
-function potencia() {
- 
-  document.getElementById('resultado').innerText = resultado;
-}
+  document.getElementById('resultado').innerText = resultado
 
 
 function raiz() {
