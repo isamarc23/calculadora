@@ -20,7 +20,7 @@ function multiplicar() {
 }
 
 function dividir() {
-  function sumar() {
+
     var num1 = parseFloat(document.getElementById('num1').value);
     var num2 = parseFloat(document.getElementById('num2').value);
     var resultado = num1 + num2;
@@ -75,7 +75,7 @@ function cleaner(){
     document.getElementById('resultado').innerHTML="";
 }
   document.getElementById('resultado').innerText = resultado;
-}
+
 
 function potencia() {
  
