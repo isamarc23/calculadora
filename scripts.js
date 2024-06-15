@@ -76,5 +76,4 @@ function cleaner(){
     document.getElementById('num2').value="";
     document.getElementById('resultado').innerHTML="";
 }
-  document.getElementById('resultado').innerText = resultado
-ent.getElementById('resultado').innerHTML="";
+ 
